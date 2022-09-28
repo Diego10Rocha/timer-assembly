@@ -44,10 +44,9 @@ Este projeto consiste na implementação de uma aplicação em Assembly respons�
 		</p>
 	</div>
 
-A placa Raspberry Pi Zero será responsável por controlar as informações enviadas para o display, além de executar os comandos necessários para a execução da aplicação e processar os sinais recebidos pelos botões. O display e os botões estão ligados à Raspberry Pi Zero por meio da GPIO Extension Board.
 
 ### GPIO do Raspberry Pi Zero
-A Raspberry Pi Zero possui 40 pinos de GPIO (General Purpose Input/Output), que são portas programáveis de entrada e saída de dados, utilizadas para promover uma interface entre os periféricos.
+A Raspberry Pi Zero possui 40 pinos de GPIO (General Purpose Input/Output), que são portas programáveis de entrada e saída de dados, utilizadas para promover uma interface entre os periféricos. 
 
 A pinagem dos periféricos é feitas de acordo com as informações descritas à seguir.
 
@@ -69,7 +68,8 @@ Para a utilização do display LCD HD44780U foram implementadas as instruções 
 
 As instruções implementadas incluem: inicializar, limpar, escrever um dígito no display, entre outras descritas na documentação. Além dessas, também foram implementadas outras que possibilitam a realização da contagem.
 
-O código em assembly responsável por controlar o display está presente em [display.s]().
+O código em assembly responsável por controlar o display está presente em [display.s](). A placa Raspberry Pi Zero será responsável por controlar as informações enviadas para o display, além de executar os comandos necessários para a execução da aplicação e processar os sinais recebidos pelos botões. O display e os botões estão ligados à Raspberry Pi Zero por meio da GPIO Extension Board.
+
 
 ### Temporizador
 
@@ -145,18 +145,18 @@ Instruções que convenientemente se associam a outras criando um desvio a parti
 Teste do projeto em geral foram feitos a partir de casos de testes que consistiam na utilização das principais funções do código.
 
 Abaixo está uma descrição de um caso de teste.
-1- Iniciar contagem clicando o botão
-2- Inciar contagem segurando o botão 
-3- Pausar a contagem clicando o botão
-4- Pausar a contagem segurando o botão
-5- Reiniciar a contagem clicando o botão 
-6- Reiniciar a contagrm segurando o botão
-7- Contagem de um dígito visivel no display
-8- Contagem de dois dígitos visivel no display
-9- Trocar contagem de dois dígitos para um 
-10- Trocar contagem de um dígito para dois
-11- Clear deve ocorrer ao iniciar o display
-12- Clear deve ocorrer antes de escrever um dígito
+- Iniciar contagem clicando o botão
+- Inciar contagem segurando o botão 
+- Pausar a contagem clicando o botão
+- Pausar a contagem segurando o botão
+- Reiniciar a contagem clicando o botão 
+- Reiniciar a contagrm segurando o botão
+- Contagem de um dígito visivel no display
+- Contagem de dois dígitos visivel no display
+- Trocar contagem de dois dígitos para um 
+- Trocar contagem de um dígito para dois
+- Clear deve ocorrer ao iniciar o display
+- Clear deve ocorrer antes de escrever um dígito
 
 ## Conclusão
 
