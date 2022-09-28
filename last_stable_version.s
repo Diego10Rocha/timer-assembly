@@ -214,7 +214,7 @@
         enable
 .endm
 
-
+@ Escreve o numero no display
 .macro writeNumber value
 
         prefixNumberDisplay
@@ -466,6 +466,7 @@ _end:
 
 .data
 
+@Valores de tempos para a aplicacao
 timespecsec: .word 0
 timespecnano: .word 015000000
 timespecsecT: .word 1
