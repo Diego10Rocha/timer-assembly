@@ -13,14 +13,15 @@ Este projeto consiste na implementação de uma aplicação em Assembly respons�
 
 ## Solução
 ### Requisitos Concluidos
-[x] Código Escrito em Assembly
-[x] O sistema deve permitir configurar o tempo de contagem
-[x] Usar os botões para configurar iniciar, parar e reiniciar a contagem
-[x] Usar os mesmsos botões para iniciar/parar a contagem
-[x] Limpar Display
-[x] Escrever caractere
-[x] Posicionar Cursor
-[ ] Biblioteca
+
+- [x] Código Escrito em Assembly
+- [x] O sistema deve permitir configurar o tempo de contagem
+- [x] Usar os botões para configurar iniciar, parar e reiniciar a contagem
+- [x] Usar os mesmsos botões para iniciar/parar a contagem
+- [x] Limpar Display
+- [x] Escrever caractere
+- [x] Posicionar Cursor
+- [ ] Biblioteca
 
 
 ### Recursos utilizados
