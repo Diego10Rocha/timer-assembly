@@ -108,35 +108,38 @@ Os arquivos base do códgio assembly encontra-se no caminho diretório (timer-as
 ### Tipos de Instruçoes
 
 #### Instruções aritméticas 
-	Instruções aritméticas fornecem a capacidade computacional para processamento de dados numéricos. Abaixo estão as instruções utilizadas no código:
-	- ADD - adição
-	- SUB - subtração
+Instruções aritméticas fornecem a capacidade computacional para processamento de dados numéricos. Abaixo estão as instruções utilizadas no código:
+
+- ADD - adição
+- SUB - subtração
 
 #### Instruções lógicas (booleanas) operam sobre bits de uma palavra, como bits e não como números
 Instruções lógicas (booleanas) operam sobre bits de uma palavra, como bits e não como números. Abaixo estão as instruções utilizadas no código:
-	- AND - função lógica "and"
-	- ORR - função lógica "or"
-	- LSL - deslocamento de bits para a esquerda
+
+- AND - função lógica "and"
+- ORR - função lógica "or"
+- LSL - deslocamento de bits para a esquerda
 
 #### Transferência de dados 
 Transferência de dados move dados entre a memória e os registradores. Abaixo estão as instruções utilizadas no código:
-	- LDR - carrega da memória para o registrador
-	- STR - carrega do registrador para a memória
-	- MOV - move valor para os registradores
+
+- LDR - carrega da memória para o registrador
+- STR - carrega do registrador para a memória
+- MOV - move valor para os registradores
 
 #### Instruções de desvio são utilizadas para desviar a execução do programa para uma nova instrução
 Instruções de desvio são utilizadas para desviar a execução do programa para uma nova instrução. Todas as instruções utilizadas estão abaixo:
-	- B - desvio incondicional
-	- BEQ - desvio se condição for igual a zero
-	- BLEQ - desvia e depois retorna para onde parou se a condição for igual a zero
-	- BGT - desvia se a condição for maior que zero
-	- BNE - desvia se a condição for diferente de zero
+- B - desvio incondicional
+- BEQ - desvio se condição for igual a zero
+- BLEQ - desvia e depois retorna para onde parou se a condição for igual a zero
+- BGT - desvia se a condição for maior que zero
+- BNE - desvia se a condição for diferente de zero
 
 #### Instruções aritmética com logicas e com desvio.
 Instruções que convenientemente se associam a outras criando um desvio a partir de uma condicional. As instruções utilizadas estão abaixo:
-	- ADDEQ - adição se o a flag levantada for de valores igual 
-	- SUBNE - subtração se a flag levantada for de valores diferentes
-	- MOVNE- movimentação de dados se a flag levantada for de valores diferentes
+- ADDEQ - adição se o a flag levantada for de valores igual 
+- SUBNE - subtração se a flag levantada for de valores diferentes
+- MOVNE- movimentação de dados se a flag levantada for de valores diferentes
  
 ## Testes
 Teste do projeto em geral foram feitos a partir de casos de testes que consistiam na utilização das principais funções do código.
