@@ -68,7 +68,7 @@ Para a utilização do display LCD HD44780U foram implementadas as instruções 
 
 As instruções implementadas incluem: inicializar, limpar, escrever um dígito no display, entre outras descritas na documentação. Além dessas, também foram implementadas outras que possibilitam a realização da contagem.
 
-O código em assembly responsável por controlar o display está presente em [display.s](). A placa Raspberry Pi Zero será responsável por controlar as informações enviadas para o display, além de executar os comandos necessários para a execução da aplicação e processar os sinais recebidos pelos botões. O display e os botões estão ligados à Raspberry Pi Zero por meio da GPIO Extension Board.
+A placa Raspberry Pi Zero será responsável por controlar as informações enviadas para o display, além de executar os comandos necessários para a execução da aplicação e processar os sinais recebidos pelos botões. O display e os botões estão ligados à Raspberry Pi Zero por meio da GPIO Extension Board.
 
 
 ### Temporizador
@@ -99,7 +99,7 @@ Doubleword - 64 bits.
 Os registradores do processador têm 32 bits de tamanho.
 
 ### Como Executar
-Os arquivos base do códgio assembly encontra-se no caminho diretório (timer-assembly). Em conjunto está em anexo, o arquivo com o display e os botões, ContadorP-2P.s e display.s, os quais não fazem parte da versão final do projeto, todavia foram códigos base para a constução da versão final. ara executar o produto desenvolvido, utiliza-se o arquivo makefile. Para isso, dentro de um terminal linux, abra o diretório que contém os arquivos bases mencionados anteriormente e execute os seguinte comando:
+Os arquivos base do códgio assembly encontra-se no caminho diretório (timer-assembly). Para executar o produto desenvolvido, utiliza-se o arquivo makefile. Para isso, dentro de um terminal linux, abra o diretório que contém os arquivos bases mencionados anteriormente e execute os seguinte comando:
 
 -	make all
 - sudo ./last_stable_version
