@@ -272,7 +272,7 @@ _start:
         @ sequência de inicialização do display
         pinDisplay
         displayClear
-        functionSet
+@        functionSet
         functionSet
         functionSet
         functionSet
