@@ -204,7 +204,7 @@
 
 .endm
 
-
+@ manda os quatros primeiros bits pro display, determinando a coluna
 .macro prefixNumberDisplay
 	GPIOTurnOn pinRS
         GPIOTurnOff pinDB7
